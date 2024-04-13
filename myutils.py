@@ -86,7 +86,7 @@ def get_OTC_path(T_training, np_seed, T_testing, nmax):
             while gen_cont:
                 w1_gen = bimodal(T+1)
                 w2_gen = np.random.normal(62906.31683,9551.438123,T+1)
-                if w2_gen.all() + w1_gen.all() <= 150000:
+                if w2_gen.all() + w1_gen.all() <= 110000:
                     W1[n,:] = w1_gen 
                     W2[n,:] = w2_gen 
                     gen_cont = False
