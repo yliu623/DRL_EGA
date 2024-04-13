@@ -666,7 +666,7 @@ if __name__ == "__main__":
     parser.add_argument('-prioritized_replay_beta0', type = float, default=0.4, help='prioritized replay beta')            
     parser.add_argument('-batch_size', type = int, default=128, help='prioritized replay')  
     parser.add_argument('-num_sim', type = int, default=4001, help='number of simulations')  
-    parser.add_argument('-ttm', type = int, default=101, help='time to maturity') # simulate 101-1 = 100 weeks
+    parser.add_argument('-ttm', type = int, default=101, help='time to maturity') 
     parser.add_argument('-n_train', type = int, default=4012, help='training episode')
     parser.add_argument('-n_test', type = int, default=2001, help='testing episode')
     parser.add_argument('-depth_nn_hidden', type = int, default=2, help = 'number of hidden layers in actor nn')
