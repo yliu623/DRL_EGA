@@ -10,5 +10,5 @@ Run myddpg_per.py for training and testing. To set a simulation environment for 
 For hyperparameter tuning, run run.py.
 
 ## Credits
-- The code structure is adapted from the code for the paper "Deep Hedging of Derivatives Using Reinforcement Learning" by Jay Cao, Jacky Chen, John Hull, and Zissis Poulos (https://github.com/tdmdal/rl-hedge-2019).
+- The code structure is adapted from @xiaochus's github project Deep-Reinforcement-Learning-Practice.
 - The implementation of prioritized experience replay buffer is taken from OpenAI Baselines (https://github.com/openai/baselines).
