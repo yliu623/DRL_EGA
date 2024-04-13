@@ -1,4 +1,4 @@
-# DRL_EGA
+# An Empirically Grounding Analytics (EGA) Approach to Hog Farm Finishing Stage Management
 ## About
 This is the companion code for the paper - An Empirically Grounding Analytics (EGA) Approach to Hog Farm Finishing Stage Management: Deep Reinforcement Learning as Decision Support and Managerial Learning Tool.
 
