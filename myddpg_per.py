@@ -699,7 +699,7 @@ if __name__ == "__main__":
 
     #################################################### TESTING ##############################################################
     # setup for testing; use another instance for testing
-    env_test = TradingEnv(filename, train_flag = False, dg_random_seed=2, init_ttm=args.ttm, num_sim=args.num_sim)#101 100001
+    env_test = TradingEnv(filename, train_flag = False, dg_random_seed=2, init_ttm=args.ttm, num_sim=args.num_sim) 
     if env_test.exited:
         print("Exited env class, not creating testing DDPG instance") 
     else: 
