@@ -6,6 +6,7 @@ The paper is available at SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract
 
 ## Usage
 Run myddpg_per.py for training and testing. To set a simulation environment for training and testing, modify the parameter in the code accordingly (TradingEnv(...)).
+
 For hyperparameter tuning, run run.py.
 
 ## Credits
